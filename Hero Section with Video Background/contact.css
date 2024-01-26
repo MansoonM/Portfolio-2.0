@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#hero{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+background-color: rgb(37, 37, 51);
+color: rgb(255, 255, 255);
+}
+.top{
+    height: 100px;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+.left{
+    height: 100px; 
+    width: 50%;
+    display: flex;
+    margin: 40px;
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-right:20%;
+    font-family: monospace;
+    }
+
+    .left span{
+           
+        font-size: 28px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: orange;
+      
+    }
+.right{
+    height: 100px; 
+    width: 50%;
+
+}
+
+
+.right ol{
+    height: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #ffbb00;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  video{
+    height: 100%;
+position: absolute;
+object-fit: cover;
+top: 0;
+left: 0;
+z-index: -3;
+}
+
+
+
+.showme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.skills{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    height: 66vh;
+    width: 50%;
+    background-color: rgba(255, 252, 252, 0.7);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0px rgb(196, 194, 196);
+}
+.skills h1{
+    color: rgb(0, 0, 0);
+    padding-top: 13px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.skills h1:hover{
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+.skills ol{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+video{
+    height: 100%;
+position: absolute;
+object-fit: cover;
+top: 0;
+left: 0;
+z-index: -3;
+}
+
+.skills ol a{
+    text-transform: lowercase;
+    color: rgb(71, 18, 131);
+    letter-spacing: 0em;
+    
+}
+
+.skills a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
