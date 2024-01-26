@@ -3,4 +3,5 @@ Welcome to my portfolio website repository! This project serves as a showcase of
 Skills: HTML,CSS
 Editor: VS CODE
 Developement: Web Developement || Frontend Developement
+Responsiveness: Not Responsive Yet/ Will responsive soon
 
